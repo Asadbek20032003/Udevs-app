@@ -1,5 +1,5 @@
 // import React from "react";
-
+import Image from "next/image";
 const CommandTeam = () => {
   return (
     <div className="py-[80px] px-0 w-full bg-[#f4f7ff]" id="team">
@@ -34,7 +34,7 @@ const CommandTeam = () => {
             </div>
           </div>
           <div className="w-full max-w-[500px] md:w-[48%] mb-[30px]">
-            <img
+            <Image
               data-aos="zoom-in"
               data-aos-duration="1200"
               src="https://udevs.io/static/teamIcon-7e3107c853b8ec1d129a87af0e68945a.svg"

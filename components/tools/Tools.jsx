@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import Image from "next/image";
 import tools from "./tools.json";
 
 const Tools = () => {
@@ -88,7 +88,7 @@ const Tools = () => {
               }}
               className="w-full mm:h-[90px] h-[54px] flex flex-col items-center content-center justify-center overflow-hidden rounded-[5px] transition-opacity duration-[0.2s]"
             >
-              <img src={tool.imgUrl} alt={tool.toolsName} className="mm:w-[24px] w-[15px] mm:h-[24px] h-[15px]" />
+              <Image src={tool.imgUrl} alt={tool.toolsName} className="mm:w-[24px] w-[15px] mm:h-[24px] h-[15px]" />
               <span className="text-[11px] leading-[13px] text-[#000] mt-[15px] text-center">{tool.toolsName}</span>
             </div>
           ))}
