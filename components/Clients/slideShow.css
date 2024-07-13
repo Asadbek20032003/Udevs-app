@@ -1,0 +1,25 @@
+@keyframes slides {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(100%, 0px);
+  }
+}
+
+.animate-custom-slide1 {
+  flex-shrink: 0;
+  animation-name: slides;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.animate-custom-slide2 {
+  flex-shrink: 0;
+  animation-name: slides;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
