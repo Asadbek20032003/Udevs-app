@@ -1,7 +1,7 @@
 // import React from "react";
 "use client";
 import Image from "next/image";
-import "./slideShow.css";
+import "../../styles/slideShow.css";
 const Client = () => {
   return (
     <section className="w-full py-[30px] px-0 " id="clients">

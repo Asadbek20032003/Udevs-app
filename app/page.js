@@ -5,7 +5,7 @@ import Direction from "../components/direction/Direction";
 import CommandTeam from "../components/command/CommandTeam";
 import Services from "../components/services/Services";
 import Tools from "../components/tools/Tools";
-import Client from "../components/clients/Client";
+import Client from "../components/client/Client";
 import Portfolio from "../components/portfolio/Portfolio";
 import Work from "../components/work/Work";
 import Contact from "../components/contact/Contact";
