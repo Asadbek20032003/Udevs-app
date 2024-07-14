@@ -88,7 +88,13 @@ const Tools = () => {
               }}
               className="w-full mm:h-[90px] h-[54px] flex flex-col items-center content-center justify-center overflow-hidden rounded-[5px] transition-opacity duration-[0.2s]"
             >
-              <Image src={tool.imgUrl} alt={tool.toolsName} className="mm:w-[24px] w-[15px] mm:h-[24px] h-[15px]" />
+              <Image
+                width="24"
+                height="24"
+                src={tool.imgUrl}
+                alt={tool.toolsName}
+                className="mm:w-[24px] w-[15px] mm:h-[24px] h-[15px]"
+              />
               <span className="text-[11px] leading-[13px] text-[#000] mt-[15px] text-center">{tool.toolsName}</span>
             </div>
           ))}

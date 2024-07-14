@@ -35,6 +35,8 @@ const CommandTeam = () => {
           </div>
           <div className="w-full max-w-[500px] md:w-[48%] mb-[30px]">
             <Image
+              width="500"
+              height="420"
               data-aos="zoom-in"
               data-aos-duration="1200"
               src="https://udevs.io/static/teamIcon-7e3107c853b8ec1d129a87af0e68945a.svg"
